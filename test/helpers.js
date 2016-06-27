@@ -1,4 +1,5 @@
 import Scene from '../src/scene';
+import VertexArrayObject from '../src/gl/vao';
 
 /*
     Special web worker treatment:
@@ -53,3 +54,5 @@ window.makeScene = function (options) {
     );
 
 };
+
+VertexArrayObject.disabled = true;
